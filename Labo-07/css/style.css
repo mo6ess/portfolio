@@ -1,0 +1,26 @@
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.bg-taupe { background-color: #636155; }
+.text-taupe { color: #636155; }
+.bg-grijsgroen { background-color: #8A948F; }
+.border-grijsgroen { border-color: #8A948F; }
+.hover\:bg-grijsgroen:hover { background-color: #8A948F; }
+
+
+a:focus-visible,
+button:focus-visible,
+input:focus-visible,
+select:focus-visible,
+textarea:focus-visible,
+#menu-knop:focus-visible + label {
+  outline: 2px solid #000000;
+  outline-offset: 2px;
+}
+
+input:user-invalid,
+textarea:user-invalid {
+  border-color: #b91c1c;
+}
+ 

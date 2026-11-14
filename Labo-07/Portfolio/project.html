@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="nl-BE">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project | Moesa</title>
+    <meta name="description" content="Project page van Moesa Arzukaev, student systeem- en
+netwerkbeheer aan AP Hogeschool. Bekijk hier mijn projecten.">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;600&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/tailwind.css"> 
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body class="text-black">
+<a href="#inhoud" class="sr-only focus:not-sr-only focus:absolute focus:left-2 focus:top-2 focus:z-10 focus:bg-white focus:px-3 focus:py-2 focus:rounded-lg focus:border focus:border-grijsgroen">Ga naar de inhoud</a>
+<div class="max-w-6xl mx-auto px-4 py-4 flex flex-col gap-4">
+
+    <header class="flex flex-wrap items-center justify-between gap-4 p-4 border border-grijsgroen rounded-lg">
+        <a href="index.html"><img src="Images/Logo-webtech.png" alt="Logo van Moesa" class="w-40" width="677" height="369"></a>
+
+        <input type="checkbox" id="menu-knop" class="peer sr-only">
+        <label for="menu-knop" class="cursor-pointer rounded-lg border border-grijsgroen px-3 py-2 peer-focus-visible:outline-2 md:hidden">Menu</label>
+
+        <nav aria-label="Hoofdmenu" class="hidden w-full border border-grijsgroen rounded-lg px-4 py-2 peer-checked:block md:block md:w-auto">
+            <ul class="flex flex-col md:flex-row md:gap-4">
+            <li><a href="index.html" class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-100">Home</a></li>
+            <li><a href="portfolio.html" class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-100">Portfolio</a></li>
+            <li><a href="project.html" aria-current="page" class="block px-3 py-2 rounded-lg bg-blue-100 text-blue-800 font-semibold">Project</a></li>
+            <li><a href="contact.html" class="block px-3 py-2 rounded-lg text-gray-700 hover:bg-gray-100">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <div class="grid grid-cols-1 lg:grid-cols-4 gap-4">
+        <main id="inhoud" class="lg:col-span-3 flex flex-col gap-4 p-4 border border-grijsgroen rounded-lg">
+            <h1 class="text-3xl font-bold">projecttitel</h1>
+            <figure class="max-w-2xl">
+                <img src="Images/images.jpg" width="640" height="427" alt="Motorrijder op een sportmotor (placeholder)" class="w-full aspect-video object-cover rounded-lg bg-grijsgroen">
+                <figcaption class="mt-2 text-sm text-gray-600">hier komt het bijschrift bij de afbeelding.</figcaption>
+            </figure>
+            <p class="text-taupe leading-relaxed">hier komt de beschrijving van het project. Wat heb ik gemaakt, en hoe ben ik te werk gegaan?</p>
+            <div class="grid grid-cols-1 sm:grid-cols-3 gap-4">
+                <img src="Images/images.jpg" width="640" height="427" alt="Motorrijder op een sportmotor" class="w-full aspect-video object-cover bg-grijsgroen">
+                <img src="Images/images.jpg" width="640" height="427" alt="Motorrijder op een sportmotor" class="w-full aspect-video object-cover bg-grijsgroen">
+                <img src="Images/images.jpg" width="640" height="427" alt="Motorrijder op een sportmotor" class="w-full aspect-video object-cover bg-grijsgroen">
+            </div>
+        </main>
+
+        <aside class="flex flex-col gap-4 p-4 border border-grijsgroen rounded-lg lg:self-start">
+            <h2 class="text-xl font-bold">Toekomstig</h2>
+            <p class="text-taupe text-sm leading-relaxed">hier komt extra info over projecten die ik zal doen.</p>
+            <a href="portfolio.html" class="bg-taupe text-white px-6 py-2 rounded-lg hover:bg-black text-center">Terug naar portfolio</a>
+        </aside>
+    </div>
+
+    <footer class="grid grid-cols-2 gap-2 p-4 border border-grijsgroen rounded-lg text-sm md:flex md:items-center">
+        <span class="font-bold border border-grijsgroen rounded-lg px-3 py-1 md:flex-1 md:mr-2">Moesa</span>
+        <a href="mailto:moesa.arzukayev@student.ap.be" class="inline-flex items-center gap-2 border border-grijsgroen rounded-lg px-3 py-1 hover:bg-grijsgroen">
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="size-5" aria-hidden="true">
+                <rect x="3" y="5" width="18" height="14" rx="2" />
+                <path d="m3 7 9 6 9-6" />
+            </svg>
+            Stuur me een mail
+        </a>
+        <a href="https://www.linkedin.com/" class="border border-grijsgroen rounded-lg px-3 py-1 hover:bg-grijsgroen">LinkedIn</a>
+        <a href="https://www.instagram.com/" class="border border-grijsgroen rounded-lg px-3 py-1 hover:bg-grijsgroen">Instagram</a>
+    </footer>
+
+</div>
+</body>
+</html>
